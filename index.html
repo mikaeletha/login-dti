@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="css/style.css" rel="stylesheet" type="text/css" />
+    <script src="script.js"></script>
+    <title>Login Page</title>
+</head>
+<body>
+    <div class="container" >        
+        <div class="content">      
+          <!--FORMULÁRIO DE LOGIN-->
+          <div id="login">
+            <form method="post" action=""> 
+              <h1>Login</h1> 
+              <p> 
+                <label for="email">Seu e-mail</label>
+                <br>
+                <input id="email" name="email" required="required" type="text" placeholder="Informe seu e-mail"/>
+              </p>
+              
+              <p> 
+                <label for="senha">Sua senha</label>
+                <br>
+                <input id="senha" name="senha" required="required" type="password" placeholder="Informe sua senha" /> 
+              </p>
+              
+              <p> 
+                <input type="submit" onclick="Enviar();" value="Entrar" /> 
+              </p>
+            </form>
+          </div>
+</body>
+</html>
