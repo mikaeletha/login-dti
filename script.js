@@ -2,11 +2,13 @@ function Enviar() {
   var email = document.getElementById("email");
   var senha = document.getElementById("senha");
 
-if ((email.value == "teste@teste.com") && (senha.value == "123")) {
-  SucessoLogin();
-}
+if((email.value == "teste@teste.com") && (senha.value == "123")) {
+  alert("Login efetuado com sucesso! Clique em OK para ser redirecionado", SucessoLogin())
+  //SucessoLogin();
+} 
 else {
-  ErroLogin();
+  //ErroLogin();
+  alert("Erro! Clique em OK para saber mais", ErroLogin())
 }
 }
 
